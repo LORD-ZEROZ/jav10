@@ -10,7 +10,7 @@ public class progressor {
         }
     } */
    // Modified version (myself)
-   public static void animation(String s){
+   public static void animation(String x){
     int buffer = 100;
     String anime = "\\/|-";
     try {
