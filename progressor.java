@@ -12,7 +12,7 @@ public class progressor {
    // Modified version (myself)
    public static void animation(String s){
     int buffer = 100;
-    String anime = "|\\/|";
+    String anime = "\\/|-";
     try {
      for(int i = 0; i<=100; i++){
         System.out.printf("\r%s....%%%d%s",s,i,anime.charAt(i % anime.length()));
